@@ -15,6 +15,6 @@ function installWidgetPreviewMultiple(widget, list) {
 
 $(function() {
     $('.image-preview-multiple').each(function() {
-        installWidgetPreviewMultiple(uploadcare.MultipleWidget($(this).children('input')), $(this).children('._list'))
+        installWidgetPreviewMultiple(uploadcare.MultipleWidget($(this).children('input')), $(this).children('._list'));
     })
 })
